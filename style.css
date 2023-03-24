@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    margin:0 auto 5px;
+    width: 1.5in;
+    height: 0.5in;
+    padding:5px;
+    border-radius: 5px;   
+    background-color: white; 
+    justify-content: flex-end;    
+    border: 1px solid black;
+    position: relative
+}
+
+.grid-item {
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
+
+.grid-item-2 {
+    position:absolute;
+    top: 0;
+    left:0;
+}
+
+.grid-answer {
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
